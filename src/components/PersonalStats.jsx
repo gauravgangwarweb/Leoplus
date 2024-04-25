@@ -12,8 +12,8 @@ const PersonalStats = () => {
             alt="leoplus"
           />
         </div>
-        <p className="text-xl font-bold uppercase">Leoplus Balance</p>
-        <p className="text-xl font-bold uppercase self-end">{"0.0000"}</p>
+        <p className="text-lg font-semibold uppercase">Leoplus Balance</p>
+        <p className="text-lg font-semibold uppercase self-end">{"0.0000"}</p>
       </div>
       <div className="mt-8 w-full flex justify-between text-[#103047] border-b-2 border-black py-2">
         <div className="border border-black p-2 rounded-full flex items-center justify-center">
@@ -23,8 +23,8 @@ const PersonalStats = () => {
             alt="portfolio"
           />
         </div>
-        <p className="text-xl font-bold uppercase">Portfolio (Usdt)</p>
-        <p className="text-xl font-bold uppercase self-end">{"0.0000"}</p>
+        <p className="text-lg font-semibold uppercase">Portfolio (Usdt)</p>
+        <p className="text-lg font-semibold uppercase self-end">{"0.0000"}</p>
       </div>
       <div className="mt-8 w-full flex justify-between text-[#103047] border-b-2 border-black py-2">
         <div className="border border-black p-2 rounded-full flex items-center justify-center">
@@ -34,8 +34,8 @@ const PersonalStats = () => {
             alt="deposited"
           />
         </div>
-        <p className="text-xl font-bold uppercase">Total Deposited</p>
-        <p className="text-xl font-bold uppercase self-end">{"0.0000"}</p>
+        <p className="text-lg font-semibold uppercase">Total Deposited</p>
+        <p className="text-lg font-semibold uppercase self-end">{"0.0000"}</p>
       </div>
       <div className="mt-8 w-full flex justify-between text-[#103047] border-b-2 border-black py-2">
         <div className="border border-black p-2 rounded-full flex items-center justify-center">
@@ -45,8 +45,8 @@ const PersonalStats = () => {
             alt="withdrawn"
           />
         </div>
-        <p className="text-xl font-bold uppercase">Total Withdrawn</p>
-        <p className="text-xl font-bold uppercase self-end">{"0.0000"}</p>
+        <p className="text-lg font-semibold uppercase">Total Withdrawn</p>
+        <p className="text-lg font-semibold uppercase self-end">{"0.0000"}</p>
       </div>
       <div className="mt-8 w-full flex justify-between text-[#103047] border-b-2 border-black py-2">
         <div className="border border-black p-2 rounded-full flex items-center justify-center">
@@ -56,8 +56,8 @@ const PersonalStats = () => {
             alt="withdrawn-limit"
           />
         </div>
-        <p className="text-xl font-bold uppercase">Withdrawal Limit</p>
-        <p className="text-xl font-bold uppercase self-end">{"0.0000"}</p>
+        <p className="text-lg font-semibold uppercase">Withdrawal Limit</p>
+        <p className="text-lg font-semibold uppercase self-end">{"0.0000"}</p>
       </div>
       <div className="mt-8 w-full flex justify-between text-[#103047] border-b-2 border-black py-2">
         <div className="border border-black p-2 rounded-full flex items-center justify-center">
@@ -67,19 +67,19 @@ const PersonalStats = () => {
             alt="referred-users"
           />
         </div>
-        <p className="text-xl font-bold uppercase">Reffered Users</p>
-        <p className="text-xl font-bold uppercase self-end">{"0.0000"}</p>
+        <p className="text-lg font-semibold uppercase">Reffered Users</p>
+        <p className="text-lg font-semibold uppercase self-end">{"0.0000"}</p>
       </div>
       <div className="mt-8 w-full flex justify-between text-[#103047] border-b-2 border-black py-2">
         <div className="border border-black p-2 rounded-full flex items-center justify-center">
           <img
             className="w-9 h-9"
-            src="referred-reward.png"
-            alt="referred-users"
+            src="referred-deposit.png"
+            alt="referred-deposit"
           />
         </div>
-        <p className="text-xl font-bold uppercase">Reffered Deposit</p>
-        <p className="text-xl font-bold uppercase self-end">{"0.0000"}</p>
+        <p className="text-lg font-semibold uppercase">Reffered Deposit</p>
+        <p className="text-lg font-semibold uppercase self-end">{"0.0000"}</p>
       </div>
       <div className="mt-8 w-full flex justify-between text-[#103047] border-b-2 border-black py-2">
         <div className="border border-black p-2 rounded-full flex items-center justify-center">
@@ -89,8 +89,8 @@ const PersonalStats = () => {
             alt="lapsed-tokens"
           />
         </div>
-        <p className="text-xl font-bold uppercase">Lapsed Tokens</p>
-        <p className="text-xl font-bold uppercase self-end">{"0.0000"}</p>
+        <p className="text-lg font-semibold uppercase">Lapsed Tokens</p>
+        <p className="text-lg font-semibold uppercase self-end">{"0.0000"}</p>
       </div>
     </div>
   );
