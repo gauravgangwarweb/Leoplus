@@ -39,7 +39,7 @@ const BuySell = () => {
               placeholder={"0.00000"}
             />
             <p className="text-[#242b3e] text-lg font-semibold uppercase">
-              Usdt Amount
+              Usdt
             </p>
           </div>
           <div className="flex justify-between">
@@ -56,7 +56,7 @@ const BuySell = () => {
               placeholder={"0.00000"}
             />
             <p className="text-[#242b3e] text-lg font-semibold uppercase">
-              Leoplus Recieved
+              Leoplus
             </p>
           </div>
           <div className="w-full flex flex-col items-center justify-center">
@@ -87,7 +87,7 @@ const BuySell = () => {
           <div className="bg-[#ffffff] flex justify-between px-2 py-2 rounded-md mt-2">
             <p className="text-[#242b3e] text-lg font-semibold">{"0.00000"}</p>
             <p className="text-[#242b3e] text-lg font-semibold uppercase">
-              Usdt Amount
+              Usdt
             </p>
           </div>
           <div className="w-full flex flex-col items-center justify-center">
