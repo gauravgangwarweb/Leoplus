@@ -71,7 +71,10 @@ const BuySell = () => {
       ) : (
         <div className="mt-8">
           <div className="bg-[#ffffff] flex justify-between px-2 py-2 rounded-md">
-            <p className="text-[#242b3e] text-lg font-semibold">{"0.00000"}</p>
+            <input
+              className="text-[#242b3e] text-lg font-semibold w-[30%] px-1 bg-inherit"
+              placeholder={"0.00000"}
+            />
             <p className="text-[#242b3e] text-lg font-semibold uppercase">
               Leoplus
             </p>
@@ -85,7 +88,10 @@ const BuySell = () => {
             />
           </div>
           <div className="bg-[#ffffff] flex justify-between px-2 py-2 rounded-md mt-2">
-            <p className="text-[#242b3e] text-lg font-semibold">{"0.00000"}</p>
+            <input
+              className="text-[#242b3e] text-lg font-semibold w-[30%] px-1 bg-inherit"
+              placeholder={"0.00000"}
+            />
             <p className="text-[#242b3e] text-lg font-semibold uppercase">
               Usdt
             </p>
@@ -95,7 +101,7 @@ const BuySell = () => {
               SELL
             </button>
             <p className="mt-2 text-[#103047] text-base font-semibold">
-              Min. sell To 2000 Leoplus
+              Min. sell 2000 Leoplus
             </p>
           </div>
         </div>
