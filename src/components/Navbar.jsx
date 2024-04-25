@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className="w-full flex justify-between items-center py-4 px-2 md:px-4">
       <span></span>
       <button
-        className="bg-[#111e54] text-white font-medium md:font-bold px-2 py-1 rounded-md uppercase"
+        className="bg-[#111e54] hover:bg-blue-900 text-white font-medium md:font-bold px-2 py-1 rounded-md uppercase"
         onClick={handleConnect}
       >
         Connect Wallet
